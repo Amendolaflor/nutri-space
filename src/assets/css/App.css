@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+.product-list {
+ 
+  padding: 50px;
+    
+}
+.cart-cont {  
+  padding-left: 50%;
+  
+}
+.cart {
+  width: 30px;
+  color: white;
+  
+}
