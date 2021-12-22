@@ -15,7 +15,7 @@ function NavBar() {
           <img className="logo" src={logotipo} alt="react logo" />      
         </Nav.Link>
       </LinkContainer>
-        <Navbar.Brand>NUTRISHOP</Navbar.Brand>
+        <Navbar.Brand>SIN PESO MODA </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
@@ -23,20 +23,17 @@ function NavBar() {
             <Nav.Link>Home</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/about">
-            <Nav.Link>About</Nav.Link>
+            <Nav.Link>Sobre Nosotros</Nav.Link>
           </LinkContainer>
           <NavDropdown title="Productos" id="collasible-nav-dropdown">
             <LinkContainer to="/products/1">
-              <NavDropdown.Item>Viandas</NavDropdown.Item>
+              <NavDropdown.Item>Calzado</NavDropdown.Item>
             </LinkContainer>
             <LinkContainer to="/products/2">
-              <NavDropdown.Item>Dulces</NavDropdown.Item>
+              <NavDropdown.Item>Ropa</NavDropdown.Item>
             </LinkContainer>
             <LinkContainer to="/products/3">
-              <NavDropdown.Item>Nutri</NavDropdown.Item>
-            </LinkContainer>
-            <LinkContainer to="/products/4">
-              <NavDropdown.Item>Celiacos</NavDropdown.Item>
+              <NavDropdown.Item>Accesorios</NavDropdown.Item>
             </LinkContainer>
             <NavDropdown.Divider />
             <LinkContainer to="/checkout">

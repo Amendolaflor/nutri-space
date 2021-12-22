@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ItemDetail from "../itemdetail/ItemDetail";
 import { useParams } from "react-router";
+import "./ItemDetailContainer.css"
 
 function ItemDetailContainer() {
   const [product, setProduct] = useState([]);
@@ -17,9 +18,9 @@ function ItemDetailContainer() {
   },[ product_id ]);
 
   return (
-    <>
-      <ItemDetail item={product} />
-    </>
+    <div className = "ContDetail">
+      <ItemDetail  item={product} />
+    </div>
   );
 }
 

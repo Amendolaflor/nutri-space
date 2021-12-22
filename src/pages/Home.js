@@ -1,12 +1,12 @@
 import React from 'react';
-import Slider from "../components/slider/Slider";
+import Banner from "../components/banner/Banner";
 import ItemListContainer from "../components/itemlistcontainer/ItemListContainer";
 
 
 function Home() {
   return (
     <div>
-      <Slider />
+      <Banner />
       <ItemListContainer />
      
     </div>

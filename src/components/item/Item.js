@@ -18,7 +18,9 @@ function Item({ image, title, price, index, id }) {
         <p>{`Precio: $${price}`}</p>        
         <hr />
         <div>
-          <Link to={`/${id}`}><Button variant="outline-info">Detalle</Button>{" "}</Link>
+          <Link to={`/${id}`}><Button className="btn btn-danger btn-sm mr-1 mb-2">
+                                    Detalle
+                                  </Button>{" "}</Link>
         </div>
       </Card>
     </CardDeck>

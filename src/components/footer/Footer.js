@@ -56,7 +56,7 @@ function Footer() {
         </div>
         <div class="row">
           <div class="col-md-12 copy">
-            <p class="text-center">Copyright 2021 - NUTRI SPACE. All rights reserved.</p>
+            <p class="text-center">Copyright 2021 - SIN PESO MODA. All rights reserved.</p>
           </div>
         </div>
 	</div>

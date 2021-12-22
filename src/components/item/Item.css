@@ -19,3 +19,10 @@ div.card-deck {
 	margin-right:auto;
 	align-items: center;
 }
+
+.btn-danger {
+  background-color: #f3588c
+}
+.btn-danger:hover {
+  background-color: rgb(212, 58, 117)
+}

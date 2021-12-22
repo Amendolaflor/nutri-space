@@ -4,12 +4,7 @@ body {
 }
 .nav {
   background: #2d0444de;
-
-  
-  margin-bottom: 0%;
-  padding: 0 180px;
- 
- 
+  padding: 0 180px; 
   position: fixed;
   z-index: 1;
   width: 100%;

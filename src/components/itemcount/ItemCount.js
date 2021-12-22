@@ -27,7 +27,7 @@ function ItemCount({ stock, onAdd }) {
       {stock > 0 ? (
         <>
           {" "}
-          <Button variant="info" onClick={restar}>
+          <Button className="btn btn-danger btn-sm mr-1 mb-2" onClick={restar}>
             -
           </Button>{" "}
           <input
@@ -36,13 +36,13 @@ function ItemCount({ stock, onAdd }) {
             placeholder="Escribe la cantidad"
             onChange={manualChange}
           />
-          <Button variant="info" onClick={sumar}>
+          <Button className="btn btn-danger btn-sm mr-1 mb-2" onClick={sumar}>
             +
           </Button>
           <div>
-            <Button onClick={onAdd} variant="outline-info">
-              Comprar
-            </Button>{" "}
+            <Button className="btn btn-danger btn-sm mr-1 mb-2">
+                                    Comprar
+                                  </Button>{" "}
           </div>
         </>
       ) : (

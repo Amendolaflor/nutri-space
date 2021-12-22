@@ -1,14 +1,10 @@
 import React from 'react';
 import 'react-slideshow-image/dist/styles.css'
-//import { Slide } from 'react-slideshow-image';
-import "./Slider.css";
+import "./Banner.css";
 import astronauta from "../../assets/imgs/astronauta.png";
-// import smartphones from "../../assets/imgs/smartphones.png";
-// import womanBuying from "../../assets/imgs/womanBuying.jpg";
-//import fondo from "../../assets/imgs/fondo-estrellas.jpg";
 
 
-const Slideshow = () => {
+const Banner = () => {
     return (
       <div>
         <div class="container-fluid welcome ">
@@ -18,7 +14,7 @@ const Slideshow = () => {
             <div
             class="col-lg-8 col-md-12 d-flex flex-column justify-content-center align-content-start text-white px-lg-6">
             <h1 class="display-lg-4 h1 text-lg-left text-center">Bienvenidas y Bienvenidos a Nuestra Tienda</h1>
-            <h2 class="h4 text-lg-left text-center">Las comidas mas ricas para tu estadia en el espacio</h2>
+            <h2 class="h4 text-lg-left text-center">Las indumentaria perfecta para tu estadia en el espacio</h2>
           </div>
         </div>
       </div>
@@ -28,7 +24,7 @@ const Slideshow = () => {
     )
 };
 
-export default Slideshow;
+export default Banner;
 
 
 
